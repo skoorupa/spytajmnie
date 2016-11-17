@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial - Jak zrobić plik do spytajmnie?</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://zaxad23.github.io/rPL/PolishLetters.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<a href="index.html"><h1>spytajmnie</h1></a>
+	<h3>Jak zrobić plik do spytajmnie?</h3>
+	<hr>
+	<div id="tutorial">
+		<b>Witaj w poradniku!</b> Przed chwilą mogłeś zobaczyć moją nową stronę, fajna? Mogłeś nie ogarnąć
+		o co chodzi, ale już mówię. Jest to coś w stylu takiego sprawdzianu bądź quizu, w którym zaznaczasz/piszesz 
+		odpowiedzi. Na przykład masz kartkówkę z angielskiego ze słówek i tworzysz taki plik, żeby sobie powtarzać
+		i się nauczyć. Jak zrobić taki plik? Już mówię.
+		<h3>Zacznijmy!</h3>
+		<textarea rows="20" cols="54" readonly>
+* Oto komentarz
+
+^Jest to testowy zestaw pytań.
+^A to jest zwykły tekst.
+
+r To jest pytanie oparte na przyciskach opcji
++To jest prawidłowa odpowiedź
+-To jest błędna odpowiedź
+-To też jest błędna odpowiedź
+
+c To jest pytanie z kilkoma prawidłowymi odpowiedziami
++To jest odpowiedź prawidłowa
+-To jest odpowiedź błędna
++To też jest odpowiedź prawidłowa
+
+t To jest pytanie, w którym musisz coś napisać
++A to jest odpowiedź, którą nie widzi użytkownik
+		</textarea>
+		Jak mogłeś zauważyć, każda linijka zaczyna się od jakiegoś wyrazu bądź znaku. Te pierwsze znaki to są funkcje. 
+		Pytania mają litery <b>"r, c, t, tU, tP, tA",</b> odpowiedzi to są tylko dwa znaki <b>"+" i "-"</b>. 
+		W każdym pytaniu musi być odpowiedź prawidłowa. Są też znaki, które nie mają 
+		wpływu na mechanikę quizu, czyli <b>"*" i "^"</b>. <br><br>
+		Po każdym pytaniu są odpowiedzi. Żeby napisać nowe pytanie wystarczy, że je zaczniemy. Nie działa to jak w HTML-u, gdzie jak otworzymy tag to musimy go zamknąć.<br><br>
+		To, co jest ważne to "entery". Nie możemy całego kodu zamknąć w jednej linii.<br>
+		<b>A teraz podam wszystkie te funkcje i je zastosowanie:</b>
+		<h3>* - komentarz</h3>
+		Jest to funkcja, która nie wpływa na mechanikę quizu. Nie widzi jej użytkownik. Każdy, kto otworzy kod w programie tekstowym zobaczy te komentarze. Możemy zrobić ich dowolną ilość w kodzie. 
+		<h3>^ - tekst</h3>
+		Jest to funkcja, która nie wpływa na mechanikę quizu. Użytkownik ją widzi jako zwykły tekst pochylony.
+		<h3>r - przyciski opcji (te okrągłe radioboxy)</h3>
+		r - skrót od słowa z j. angielskiego "radiobox". Jest to pytanie, które opiera się na okrągłych przyciskach opcji, z których można wyznaczyć jedną odpowiedź (<input type="radio">). Po nim musimy dać tylko jedną odpowiedź prawidłową, natomiast możemy dać wiele nieprawidłowych.
+		<h3>c - wiele opcji (kwadrat z haczykiem)</h3>
+		c - skrót od słowa z j.angielskiego "checkbox." Jest to pytanie, które opiera się na kwadratowych polach wyboru, 
+		z których można wybrać wiele odpowiedzi (<input type="checkbox">). Po nim można dać wiele odpowiedzi prawidłowych, jak i nieprawidłowych.
+		<h3>t - pole tekstowe</h3>
+		t - skrót od słowa text (tekst). Użytkownik może wpisać w nie dowolną odpowiedź; nie ma opcji do wyboru. Po tym polu w kodzie piszemy odpowiedź prawidłową (+...). Jako, że tekst można pisać różnie (bez polskich znaków, wielkimi i małymi literami), to ta funkcja posiada też swoje podfunkcje zapisane jedna litera mała, a druga wielka:
+		<h3>tU - pole tekstowe bez sprawdzania wielkości znaków</h3>
+		t - od słowa text(tekst), U - od słowa uppercase (wielkie litery). W kodzie jak i podczas wypełniania quizu można nie zwracać uwagi na wielkość liter.
+		<h3>tP - pole tekstowe bez sprawdzania polskich znaków</h3>
+		t - od słowa text(tekst), P - od słowa polskie (znaki). W kodzie jak i podczas wypełniania quizu można nie zwracać uwagi na używanie polskich znaków.
+		<h3>tA - pole tekstowe bez sprawdzania wielkości znaków i polskich znaków</h3>
+		t - od słowa text(tekst), A - od słowa all (wszystko). W kodzie jak i podczas wypełniania quizu można nie zwracać uwagi na wielkość liter i polskie znaki.
+		<h2>Koniec</h2>
+		Miłego pisania!
+		</div>
+
+		<h6 style="position:fixed;bottom:0;right:20px;">&copy; 2016 adam skorupski</h6>
+</body>
+</html>

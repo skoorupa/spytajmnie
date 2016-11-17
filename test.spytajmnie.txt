@@ -1,0 +1,44 @@
+* http://zaxad23.github.io/spytajmnie
+* autor: IT'S MEEEEE
+* temat: test (rzeczy testowe)
+* (extra info)
+^Jest to testowy zestaw pytań.
+^Powodzenia.
+r Gdzie jest litera q?
++kdbq
+-jlkj
+-bhke
+-bvxk
+c Gdzie jest litera z?
+-hgiuer
++wonsz
++zbkjls
+-hqk
++dznasdn
+tU napisz wyraz p..dełko zastępując kropki ó/u
++pudełko
+t napisz wyraz "wyraz" wielkimi literami
++WYRAZ
+r ile jest pytań?
+-1
+-2
+-3
+-4
++więcej niż 4
+r Gzdie mieszka OZD?
+-Kosmowska 15 Borzęcin Duży
++Kosmowska 16 Borzęcin Duży
+-Kosmowska 17 Borzęcin Duży
+-Kosmowska 18 Borzęcin Duży
+-Kosmowska 19 Borzęcin Duży
+-Kosmowska 15 Borzęcin Mały
+-Kosmowska 16 Borzęcin Mały
+-Kosmowska 17 Borzęcin Mały
+-Kosmowska 18 Borzęcin Mały
+-Kosmowska 19 Borzęcin Mały
+c W kim się kocha Adam Bonawentura Kubisz?
++Kacper Feliciak
++Ola Zuzanna Dobruch
++Natalia Dawid
+tP napisz zolw
++żółw

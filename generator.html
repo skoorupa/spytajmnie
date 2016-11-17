@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generator - spytajmnie</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<a href="index.html"><h1>spytajmnie</h1></a>
+	<h3>generator</h3><hr>
+
+	<input id="el" placeholder="zawartość">
+	<select id="elc">
+		<option value="r" class="oppytanie">r</option>
+		<option value="c" class="oppytanie">c</option>
+		<option value="t" class="oppytanie">t</option>
+		<option value="tU" class="oppytanie">tU</option>
+		<option value="tP" class="oppytanie">tP</option>
+		<option value="tA" class="oppytanie">tA</option>
+		<option value="+" id="oppopodp">+</option>
+		<option value="-" id="opblodp">-</option>
+		<option value="^">^</option>
+		<option value="*">*</option>
+	</select>
+	<button onclick="dodajelement()">Dodaj element</button>
+	<div>
+		<fieldset id="generator"><legend>Twój nowy quiz </legend></fieldset>
+		<fieldset id="edytor">
+			<legend>Edytor ostatniego pytania </legend>
+			<p>
+				<button onclick="usunodp()">Usuń odpowiedzi</button><br>
+				Tytuł: <input id="tytuledytor"><button onclick="zmientytul()">Zmień</button>
+			</p>
+		</fieldset>
+	</div>
+
+	<script type="text/javascript" src="generator.js"></script>
+</body>
+</html>
