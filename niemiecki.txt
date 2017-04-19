@@ -1,0 +1,22 @@
+tU głowa
++der Kopf
+tU nos
++die Nase
+tU ucho
++das Ohr
+tU oko
++das Auge
+tU gardło/szyja
++der Hals
+tU włos
++das Haar
+tU twarz
++das Gesicht
+tU usta
++der Mund
+tU ząb
++der Zahn
+tU ramię
++die Schulter
+tU klatka piersiowa
++die Brust
